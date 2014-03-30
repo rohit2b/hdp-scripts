@@ -15,11 +15,11 @@ Start inside the hdp-install directory.
 
 1. Create NN directories
 
-        sh create-nn-dir.sh
+        sh create-core-nn-dir.sh
 
 1. Create DN and NM directories
 
-        sh create-dn-nm-dir.sh
+        sh create-core-dn-nm-dir.sh
 
 1. Create Log and Pid dirs
 
@@ -40,7 +40,7 @@ Use hdp-install/hdp-configs/core_hadoop
 
 1. Copy your conf files to the Hadoop location
 
-        cp /root/hdp-install/hdp-configs/core_hadoop/* /etc/hadoop/conf.empty/
+        cp /root/hdp-scripts/hdp-configs/core_hadoop/* /etc/hadoop/conf.empty/
 
 ### Start services
 
@@ -58,4 +58,6 @@ Use hdp-install/hdp-configs/core_hadoop
 
         sh hdp-manage/start-all-core-services.sh
 
+1. Test that RM also comes up properly
 
+    Look at <hostname>:8088 to see if RM UI comes up.
