@@ -41,6 +41,10 @@
     <value>4</value>
   </property>
     <property>
+    <name>yarn.nodemanager.vmem-check-enabled</name>
+    <value>false</value>
+  </property>
+    <property>
     <name>yarn.nodemanager.delete.debug-delay-sec</name>
     <value>0</value>
   </property>
@@ -74,7 +78,7 @@
   </property>
     <property>
     <name>yarn.scheduler.minimum-allocation-mb</name>
-    <value>384</value>
+    <value>256</value>
   </property>
     <property>
     <name>yarn.nodemanager.aux-services</name>

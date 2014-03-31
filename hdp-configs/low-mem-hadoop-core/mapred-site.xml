@@ -132,7 +132,7 @@
   </property>
     <property>
     <name>mapreduce.reduce.java.opts</name>
-    <value>-Xmx614</value>
+    <value>-Xmx614m</value>
   </property>
     <property>
     <name>mapreduce.job.reduce.slowstart.completedmaps</name>
