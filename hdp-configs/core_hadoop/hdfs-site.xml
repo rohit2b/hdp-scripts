@@ -38,7 +38,7 @@
   </property>
     <property>
     <name>dfs.namenode.http-address</name>
-    <value>hdp2man:50070</value>
+    <value>hdpnode:50070</value>
   </property>
     <property>
     <name>dfs.client.read.shortcircuit.streams.cache.size</name>
@@ -122,7 +122,7 @@
   </property>
     <property>
     <name>dfs.https.namenode.https-address</name>
-    <value>hdp2man:50470</value>
+    <value>hdpnode:50470</value>
   </property>
     <property>
     <name>dfs.webhdfs.enabled</name>
@@ -134,7 +134,7 @@
   </property>
     <property>
     <name>dfs.namenode.secondary.http-address</name>
-    <value>hdp2man:50090</value>
+    <value>hdpnode:50090</value>
   </property>
     <property>
     <name>dfs.permissions.superusergroup</name>

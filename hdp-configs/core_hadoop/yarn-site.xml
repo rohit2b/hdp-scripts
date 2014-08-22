@@ -26,11 +26,11 @@
   </property>
     <property>
     <name>yarn.log.server.url</name>
-    <value>hdp2man:19888/jobhistory/logs</value>
+    <value>hdpnode:19888/jobhistory/logs</value>
   </property>
     <property>
     <name>yarn.resourcemanager.admin.address</name>
-    <value>hdp2man:8141</value>
+    <value>hdpnode:8141</value>
   </property>
     <property>
     <name>yarn.scheduler.maximum-allocation-mb</name>
@@ -66,7 +66,7 @@
   </property>
     <property>
     <name>yarn.resourcemanager.resource-tracker.address</name>
-    <value>hdp2man:8025</value>
+    <value>hdpnode:8025</value>
   </property>
     <property>
     <name>yarn.application.classpath</name>
@@ -102,7 +102,7 @@
   </property>
     <property>
     <name>yarn.resourcemanager.webapp.address</name>
-    <value>hdp2man:8088</value>
+    <value>hdpnode:8088</value>
   </property>
     <property>
     <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
@@ -110,7 +110,7 @@
   </property>
     <property>
     <name>yarn.resourcemanager.address</name>
-    <value>hdp2man:8050</value>
+    <value>hdpnode:8050</value>
   </property>
     <property>
     <name>yarn.nodemanager.admin-env</name>
@@ -126,6 +126,6 @@
   </property>
     <property>
     <name>yarn.resourcemanager.scheduler.address</name>
-    <value>hdp2man:8030</value>
+    <value>hdpnode:8030</value>
   </property>
   </configuration>

@@ -61,7 +61,7 @@
   </property>
     <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://hdp2man:8020</value>
+    <value>hdfs://hdpnode:8020</value>
   </property>
     <property>
     <name>mapreduce.jobtracker.webinterface.trusted</name>
