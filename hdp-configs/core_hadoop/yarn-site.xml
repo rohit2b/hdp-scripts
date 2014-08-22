@@ -128,4 +128,99 @@
     <name>yarn.resourcemanager.scheduler.address</name>
     <value>hdpnode:8030</value>
   </property>
+
+<property>
+    <name>yarn.timeline-service.enabled</name>
+    <value>true</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.hostname</name>
+    <value>hdpnode</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.address</name>
+    <value>hdpnode</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.webapp.address</name>
+    <value>hdpnode</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.handler-thread-count</name>
+    <value>10</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.ttl-enable</name>
+    <value>true</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.ttl-ms</name>
+    <value>604800000</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.leveldb-timeline-store.path</name>
+    <value>/yarn/timeline</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.generic-application-history.enabled</name>
+    <value>false</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.generic-application-history.fs-history-store.uri</name>
+    <value>/yarn/system/history</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.generic-application-history.store-class</name>
+    <value>org.apache.hadoop.yarn.server.applicationhistoryservice.NullApplicationHistoryStore</value>
+  </property>
+
+<!-- TIMELINE SERVICE KERBEROS ENABLEMENT CONFGIS END
+
+  <property>
+    <name>yarn.timeline-service.keytab</name>
+    <value>TODO-KEYTAB-PATH/rm.service.keytab</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.principal</name>
+    <value>rm/_HOST@TODO-KERBEROS-DOMAIN</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.webapp.spnego-principal</name>
+    <value>HTTP/_HOST@TODO-KERBEROS-DOMAIN</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.webapp.spnego-keytab-file</name>
+    <value>TODO-KEYTAB-PATH/spnego.service.keytab</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.http-authentication.type</name>
+    <value>TODO-SECURITY-TYPE</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.http-authentication.kerberos.principal</name>
+    <value>HTTP/_HOST@TODO-KERBEROS-DOMAIN</value>
+  </property>
+
+  <property>
+    <name>yarn.timeline-service.http-authentication.kerberos.keytab</name>
+    <value>TODO-KEYTAB-PATH/spnego.service.keytab</value>
+  </property>
+
+TIMELINE SERVICE KERBEROS ENABLEMENT CONFGIS END -->
+
   </configuration>
