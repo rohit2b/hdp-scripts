@@ -1,3 +1,3 @@
 echo 'Running Pi job with 10 10'
-su - hdfs -c "/usr/lib/hadoop/bin/hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples-2*.jar pi 10 10"
+su - hdfs -c "/tmp/hdp/hadoop/bin/hadoop jar /tmp/hdp/hadoop-mapreduce/hadoop-mapreduce-examples.jar pi 10 10"
 
