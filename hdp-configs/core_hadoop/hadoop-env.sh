@@ -29,7 +29,6 @@ export HADOOP_HOME_WARN_SUPPRESS=1
 
 # Hadoop Configuration Directory
 #TODO: if env var set that can cause problems
-export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-/etc/hadoop/conf}
 
 # Path to jsvc required by secure HDP 2.0 datanode
 export JSVC_HOME=/usr/libexec/bigtop-utils
@@ -109,8 +108,4 @@ do
   JAVA_JDBC_LIBS=${JAVA_JDBC_LIBS}:$jarFile
 done
 #Add libraries required by nodemanager
-MAPREDUCE_LIBS=/usr/lib/hadoop-mapreduce/*
 export HADOOP_CLASSPATH=${HADOOP_CLASSPATH}${JAVA_JDBC_LIBS}:${MAPREDUCE_LIBS}
-
-# Setting path to hdfs command line
-export HADOOP_LIBEXEC_DIR=/usr/lib/hadoop/libexec

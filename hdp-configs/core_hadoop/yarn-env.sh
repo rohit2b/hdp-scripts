@@ -16,10 +16,8 @@
 # * limitations under the License.
 # */
 
-export HADOOP_YARN_HOME=/usr/lib/hadoop-yarn
-export YARN_LOG_DIR=/var/log/hadoop-yarn/$USER
-export YARN_PID_DIR=/var/run/hadoop-yarn/$USER
-export HADOOP_LIBEXEC_DIR=/usr/lib/hadoop/libexec
+export YARN_LOG_DIR=/var/log/hadoop/$USER
+export YARN_PID_DIR=/var/run/hadoop/$USER
 export JAVA_HOME=/usr/java/default/
 
 # User for YARN daemons
