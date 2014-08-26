@@ -34,10 +34,6 @@
  <description>Enter your MySQL credentials. </description>
 </property>
     <property>
-    <name>hive.optimize.mapjoin.mapreduce</name>
-    <value>true</value>
-  </property>
-    <property>
     <name>hive.security.authorization.enabled</name>
     <value>false</value>
   </property>
@@ -85,11 +81,11 @@
     <name>hive.optimize.reducededuplication</name>
     <value>true</value>
   </property>
-    <property>
-    <name>hive.mapjoin.bucket.cache.size</name>
-    <value>10000</value>
+  <property>
+    <name>hive.exec.scratchdir</name>
+    <value>/tmp/scratch</value>
   </property>
-    <property>
+   <property>
     <name>hive.metastore.client.socket.timeout</name>
     <value>60</value>
   </property>
@@ -101,25 +97,19 @@
     <name>hive.map.aggr</name>
     <value>true</value>
   </property>
+<!--
     <property>
     <name>hive.metastore.local</name>
     <value>true</value>
   </property>
+-->
     <property>
     <name>hive.metastore.warehouse.dir</name>
     <value>/apps/hive/warehouse</value>
   </property>
     <property>
-    <name>hive.auto.convert.sortmerge.join.noconditionaltask</name>
-    <value>true</value>
-  </property>
-    <property>
     <name>hive.auto.convert.sortmerge.join</name>
     <value>true</value>
-  </property>
-    <property>
-    <name>hive.semantic.analyzer.factory.impl</name>
-    <value>org.apache.hivealog.cli.HCatSemanticAnalyzerFactory</value>
   </property>
     <property>
     <name>hive.metastore.cache.pinobjtypes</name>
