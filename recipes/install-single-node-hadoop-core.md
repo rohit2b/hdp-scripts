@@ -89,3 +89,9 @@ Use hdp-install/hdp-configs/core_hadoop
         sh hdp-manage/start-core-only-nm.sh
 
     Look at <hostname>:8088 to see if RM UI comes up.
+
+### Run a smoke test
+
+Run a pi calculation mapreduce job.
+
+        sh hdp-smoketest/smoke-test-pi-mapred.sh
