@@ -2,11 +2,11 @@
 
 ### Ensure pre-reqs are met
 
-1 Oracle or Open JDK 1.7
+1. Oracle or Open JDK 1.7
 
         java -version
 
-1 Ensure firewall is off
+1. Ensure firewall is off
 
         service iptables stop
         chkconfig iptables off
